@@ -21,7 +21,13 @@
   font-size: larger;
   font-weight: bold;
   border-radius: 10px;
+  cursor: pointer;
 }
+
+#nav > div:hover {
+  background-color: rgb(245, 76, 76);
+}
+
 #profile_section {
   display: flex;
   margin-bottom: 10%;
@@ -31,7 +37,6 @@
   height: 300px;
   width: 300px;
   margin-left: 5%;
-  
 }
 #image_section > img {
   width: 300px;
@@ -45,9 +50,52 @@
   border-radius: 10px;
   margin: 20px 100px 10px 100px;
 }
-#profile_section > div > p:first-child {
-  /* border: 1px solid red; */
-  font-size: 40px;
-  text-decoration: underline;
 
+#profile_section > div > p:first-child {
+  border: 1px solid red;
+  font-size: 40px;
+}
+
+#skills_section {
+  margin-top: 20%;
+}
+#container4 {
+  display: 6px solid blue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+#container4 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid grey;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+
+  height: 200px;
+  /* background-color: whitesmoke; */
+}
+
+#container4 > div:hover{
+    background-color: rgb(245, 76, 76);
+}
+
+#container4 > div > img {
+  height: 100%;
+  background-color: white;
+}
+
+
+
+#skill {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+  border: 1px solid red;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0px 90px 0px 90px;
 }
