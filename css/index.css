@@ -44,6 +44,13 @@
   border-radius: 600px;
 }
 
+#profile_section > div > h2 {
+  padding: 10px 30px 10px 30px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 100px 10px 100px;
+}
 #profile_section > div > p {
   padding: 30px;
   background-color: white;
@@ -51,7 +58,7 @@
   margin: 20px 100px 10px 100px;
 }
 
-#profile_section > div > p:first-child {
+#profile_section > div > h2:first-child {
   border: 1px solid red;
   font-size: 40px;
 }
@@ -79,16 +86,14 @@
   /* background-color: whitesmoke; */
 }
 
-#container4 > div:hover{
-    background-color: rgb(245, 76, 76);
+#container4 > div:hover {
+  background-color: rgb(245, 76, 76);
 }
 
 #container4 > div > img {
   height: 100%;
   background-color: white;
 }
-
-
 
 #skill {
   text-align: center;
@@ -98,4 +103,42 @@
   background-color: white;
   border-radius: 20px;
   margin: 0px 90px 0px 90px;
+}
+
+#project_section {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+#project {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+  /* border: 1px solid red; */
+  background-color: white;
+  border-radius: 20px;
+  margin: 0px 90px 0px 90px;
+  margin-bottom: 100px;
+}
+
+#gearbest {
+  /* border: 1px solid red; */
+  height: 30%;
+  width: 30%;
+  margin-left: 6%;
+  border-radius: 10px;
+}
+
+#contact_section {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+#contact {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+  /* border: 1px solid red; */
+  background-color: white;
+  border-radius: 20px;
+  margin: 0px 90px 0px 90px;
+  margin-bottom: 100px;
 }
