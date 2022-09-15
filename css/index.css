@@ -2,7 +2,11 @@
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
-  background-color: teal;
+  background-color: rgb(67, 226, 147);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 #nav {
   border-bottom: 1px solid grey;
@@ -11,20 +15,26 @@
   padding: 10px;
   background-color: white;
   margin-bottom: 10%;
+  position: sticky;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
-
 #nav > div {
+  margin: 2%;
+}
+#nav > div > a {
   border: 1px solid white;
   color: white;
   padding: 10px;
-  margin-right: 2%;
-  font-size: larger;
+
+  font-size: 24px;
   font-weight: bold;
   border-radius: 10px;
   cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
-#nav > div:hover {
+#nav > div > a:hover {
   background-color: rgb(245, 76, 76);
 }
 
@@ -42,6 +52,8 @@
   width: 300px;
   height: 110%;
   border-radius: 600px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  border: 3px solid rgb(188, 183, 183);
 }
 
 #profile_section > div > h2 {
@@ -59,7 +71,7 @@
 }
 
 #profile_section > div > h2:first-child {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-size: 40px;
 }
 
@@ -69,21 +81,23 @@
 #container4 {
   display: 6px solid blue;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(5,1fr);
+  gap: 20px;
+  margin: 10px;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 5%;
+  
 }
 #container4 > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  
   border: 2px solid grey;
-  padding: 20px;
-  margin: 15px;
+  padding: 10px;    
   border-radius: 10px;
 
-  height: 200px;
+  /* height: 100px; */
   /* background-color: whitesmoke; */
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
 #container4 > div:hover {
@@ -91,7 +105,10 @@
 }
 
 #container4 > div > img {
-  height: 100%;
+  width: 60%;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
   background-color: white;
 }
 
@@ -99,10 +116,11 @@
   text-align: center;
   font-size: 60px;
   margin-bottom: 20px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: white;
   border-radius: 20px;
   margin: 0px 90px 0px 90px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
 #project_section {
@@ -118,6 +136,7 @@
   border-radius: 20px;
   margin: 0px 90px 0px 90px;
   margin-bottom: 100px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
 #gearbest {
@@ -126,6 +145,7 @@
   width: 30%;
   margin-left: 6%;
   border-radius: 10px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
 #contact_section {
@@ -141,4 +161,5 @@
   border-radius: 20px;
   margin: 0px 90px 0px 90px;
   margin-bottom: 100px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
