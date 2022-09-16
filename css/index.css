@@ -14,7 +14,7 @@ html {
   justify-content: end;
   padding: 10px;
   background-color: white;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
   position: sticky;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
@@ -38,61 +38,161 @@ html {
   background-color: rgb(245, 76, 76);
 }
 
-#profile_section {
-  display: flex;
+/* Home Section */
+
+.home-section {
   margin-bottom: 10%;
-}
-#image_section {
-  /* border: 1px solid red; */
-  height: 300px;
-  width: 300px;
-  margin-left: 5%;
-}
-#image_section > img {
-  width: 300px;
-  height: 110%;
-  border-radius: 600px;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  border: 3px solid rgb(188, 183, 183);
+  padding: 50px 0px 0 20px;
+  display: flex;
+  align-items: center;
 }
 
-#profile_section > div > h2 {
-  padding: 10px 30px 10px 30px;
-  background-color: white;
-  border-radius: 10px;
-  text-align: center;
-  margin: 20px 100px 10px 100px;
+.hero-heading {
+  color: #ffffff;
+  font-size: 120px;
+  text-transform: capitalize;
+  font-weight: 300;
+  opacity: 0.8;
+  z-index: 1;
 }
-#profile_section > div > p {
-  padding: 30px;
+.hero-role {
+  position: relative;
+  right: -100px;
+  top: 197px;
+}
+.hero-resume {
+  position: relative;
+  right: -135px;
+  top: 196px;
+  padding: 5px 10px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 1;
+  animation: hire-me 1ms;
+}
+.hero-resume:hover {
+  border: 2px solid black;
   background-color: white;
-  border-radius: 10px;
-  margin: 20px 100px 10px 100px;
+  color: black;
+}
+.hero-resume.active {
+  animation: hire-me 6s;
+}
+@keyframes hire-me {
+  0% {
+    transform: translate(0px, -400px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
 }
 
-#profile_section > div > h2:first-child {
-  /* border: 1px solid red; */
-  font-size: 40px;
+.home-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130%;
+  opacity: 0.3;
+  margin-bottom: 0px;
+}
+
+.home-section.active,
+.project-section.active,
+.about-section.active,
+.contact-section.active {
+  position: relative;
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Home Section */
+
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: white;
+}
+.about img {
+  height: auto;
+  width: 430px;
+}
+.about-text {
+  width: 550px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main img {
+  width: 40%;
+}
+.about-text h2 {
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  color: rgb(245, 76, 76);
+}
+.about-text p {
+  color: rgba(238, 229, 229, 0.778);
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+  color: rgb(55, 52, 52);
+}
+button {
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+button:hover {
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
 }
 
 #skills_section {
-  margin-top: 20%;
+  margin-top: 10%;
+  border: 1px solid red;
+  margin-bottom: 30%;
 }
 #container4 {
   display: 6px solid blue;
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   margin: 10px;
   margin-left: 6%;
   margin-right: 6%;
   margin-top: 5%;
-  
 }
 #container4 > div {
-  
   border: 2px solid grey;
-  padding: 10px;    
+  padding: 10px;
   border-radius: 10px;
 
   /* height: 100px; */
@@ -150,16 +250,180 @@ html {
 
 #contact_section {
   margin-top: 20%;
-  margin-bottom: 20%;
+  margin-bottom: 5%;
 }
-#contact {
+#contacts {
   text-align: center;
   font-size: 60px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   /* border: 1px solid red; */
   background-color: white;
   border-radius: 20px;
   margin: 0px 90px 0px 90px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+/* contact section  */
+
+#contact {
+  /* border: 1px solid red; */
+  margin-top: 100px;
+  padding-left: 10%;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  /* border-radius: 20px; */
+  justify-content: center;
+
+  margin-bottom: 5%;
+}
+.myDetails {
+  /* background-color: #b5e7a0; */
+  border-radius: 20px 0px 0px 20px;
+  padding: 20px 0px 0px 30px;
+  background-color: white;
+  /* background-image: linear-gradient(to right,#b5e7a0,white); */
+}
+.myDetails > h1 {
+  color: rgb(82, 152, 157);
+  color: grey;
+  background-color: white;
+  border-bottom: 1px solid grey;
+  border-radius: 5px;
+}
+.myDetails > h1 + div {
+  color: darkgoldenrod;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.myMail {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+.myMail > img {
+  width: 20px;
+  background-color: white;
+}
+.myMail > p {
+  background-color: white;
+}
+.myNumber {
+  display: flex;
+  gap: 15px;
+  background-color: white;
+
+  margin-bottom: 10px;
+}
+.myNumber > p {
+  background-color: white;
+}
+.myNumber > img {
+  width: 20px;
+  background-color: white;
+}
+
+.contact-link {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 10px;
+}
+
+.contact-link > a > img {
+  width: 30px;
+  background-color: white;
+  border: 1px solid red;
+}
+
+.email-form > form {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 0px 20px 20px 0px;
+  /* border-radius: 10px; */
+}
+.email-form > form h3 {
+  color: #555;
+  font-weight: 800;
+  margin-bottom: 20px;
+  background-color: white;
+  border-bottom: 1px solid rgb(104, 101, 101);
+  padding: 5px;
+  border-radius: 5px;
+}
+.email-form > form input,
+.email-form > form textarea {
+  border: 0;
+  margin: 10px 0px;
+  padding: 20px;
+  outline: none;
+  background: #fdfafa;
+  font-size: 16px;
+  /* border: 1px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+
+.email-form > form button {
+  border: none;
+  width: 40%;
+}
+
+.btn1 {
+  /* background: orangered; */
+  width: 100%;
+  border: 1px solid orangered;
+  color: rgb(244, 240, 238);
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  z-index: 1;
+}
+
+.btn1:after {
+  background-color: rgb(245, 76, 76);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.5s ease 0s;
+}
+
+.btn1:hover {
+  border: 1px solid lightgreen;
+  color: white;
+}
+
+.btn1:hover:after {
+  width: 100%;
+}
+#btn2 {
+  border: 1px solid black;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-color: #d5e1df;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    background-color: #b5e7a0;
+  }
 }

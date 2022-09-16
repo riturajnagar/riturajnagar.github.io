@@ -8,28 +8,53 @@
   </head>
   <body>
     <div id="nav">
-      <div><a href="#profile_section">About</a></div>
+      <div><a href="#aboutMe">About</a></div>
       <div><a href="#skills_section">Skills</a></div>
       <div><a href="#project"> Projects</a></div>
       <div><a href="#contact"> Contact</a></div>
     </div>
 
-    <div id="profile_section">
-      <div id="image_section">
-        <img src="./resources/profile_pic.jpg" alt="" />
+    <div id="home">
+      <div class="home-section active">
+        <h1 class="hero-heading">
+          hello, i am <br />
+          Rituraj <br />Nagar
+        </h1>
+        <h3 class="hero-role">And I'm a Full Stack Web Developer</h3>
+        <a class="hero-resume active" href="#">Hire Me</a>
+        <img
+          src="https://wallpaperaccess.com/full/1853427.jpg"
+          class="home-img"
+          alt="ant-image"
+        />
       </div>
+    </div>
 
-      <div>
-        <h2 id="about">About</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
-          voluptates. Perspiciatis, eaque inventore distinctio blanditiis ab
-          aliquam natus perferendis sunt voluptatum sapiente illum. Voluptatibus
-          debitis officiis cumque delectus non laborum. Ipsam ducimus nesciunt,
-          numquam hic quaerat ab, quibusdame laboriosam quas, non animi sequi
-          cupiditate quidem aliquam soluta. dolores laboriosam?
-        </p>
-      </div>
+    <a name="about"></a>
+    <div id="aboutMe">
+      <section class="about">
+        <div class="main">
+          <img src="./resources/profile_pic.jpg" />
+          <div class="about-text">
+            <h2>About Me</h2>
+            <h5>Java <span>Backend</span> Developer</h5>
+            <p>
+              &nbsp; &nbsp; My Name is Rituraj Nagar. From My childhood Tech
+              Attracted me alot. I have tremendous interest towards tech, due to
+              that I completed MCA in Computer Application and currently I am
+              persuing Full Stack Web Development Course at Masai School I love
+              to develope the Softwares that impacts the Society.
+              <br />
+
+              &nbsp; &nbsp; with 1200+ hours of coding and 100+ hours soft
+              skills training. Looking forward to utilising my skills in a
+              challenging work environment.
+              <br />
+              &nbsp; &nbsp;I like Volleyball and Cooking.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
 
     <div id="skills_section">
@@ -59,7 +84,70 @@
     </div>
 
     <div id="contact_section">
-      <h2 id="contact">Contact</h2>
+      <h2 id="contacts">Contact</h2>
+    </div>
+
+    <div id="contact">
+      <div class="myDetails">
+        <h1>Have an idea??</h1>
+        <div>Let's Connect!</div>
+        <div class="myMail">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
+            alt="mail-logo"
+          />
+          <p>riturajnagar78@gmail.com</p>
+        </div>
+        <div class="myNumber">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/724/724664.png"
+            alt="Mno-logo"
+          />
+          <p>+91-7898612145</p>
+        </div>
+        <div class="contact-link">
+          <a href="https://github.com/riturajnagar"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/270/270798.png"
+              alt="logo-github"
+          /></a>
+          <a href="https://linkedin.com/in/riturajnagar"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/2504/2504923.png"
+              alt="logo-linkdin"
+          /></a>
+        </div>
+      </div>
+      <div class="email-form">
+        <form
+          action="https://formsubmit.co/3c6b044b99c7f3b584f7f95d970d53a4"
+          method="POST"
+        >
+          <h3>GET IN TOUCH</h3>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+
+          <textarea
+            name="textarea"
+            id="msg"
+            rows="4"
+            placeholder="Write Your Message"
+          ></textarea>
+          <button type="submit" class="btn1" id="btn2">Send</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
