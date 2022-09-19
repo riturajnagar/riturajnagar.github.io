@@ -177,7 +177,7 @@ button:hover {
 
 #skills_section {
   margin-top: 10%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-bottom: 30%;
 }
 #container4 {
@@ -215,7 +215,7 @@ button:hover {
 #skill {
   text-align: center;
   font-size: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   /* border: 1px solid red; */
   background-color: white;
   border-radius: 20px;
@@ -225,17 +225,26 @@ button:hover {
 
 #project_section {
   margin-top: 20%;
-  margin-bottom: 20%;
+  margin-bottom: -15%;
 }
 #project {
   text-align: center;
-  font-size: 60px;
-  margin-bottom: 20px;
+  font-size: 40px;
+  margin-bottom: 10px;
   /* border: 1px solid red; */
   background-color: white;
   border-radius: 20px;
   margin: 0px 90px 0px 90px;
-  margin-bottom: 100px;
+  
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+#project>h2{
+  /* border: 1px solid red; */
+  border-radius: 22px;
+  font-size: 50px;
+  padding: 10px;
+  background-color: white;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
@@ -508,3 +517,17 @@ button:hover {
   
 }
 
+.project1 >div>h3{
+  /* border:1px solid red; */
+  font-size: 22px;
+  color: black;
+}
+
+#bottom{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#bottom>img{
+  width: 20px;
+}
