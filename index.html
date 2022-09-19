@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+<title>Rituraj Nagar | Java Backend Developer</title>
   </head>
   <body>
     <div id="nav">
@@ -85,7 +88,10 @@
       </div>
     </div>
 
-
+    <div class="calendar">
+      <!-- Loading stuff -->
+      Loading the data just for you.
+    </div>
 
     
     <div id="project_section">
@@ -212,3 +218,20 @@
     <div id="bottom">Made By Rituraj with <img src="./resources/love.webp" alt="" /></div>
   </body>
 </html>
+
+<script>
+   src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+<script>
+  GitHubCalendar(".calendar", "riturajnagar");
+
+  // or enable responsive functionality:
+  GitHubCalendar(".calendar", "riturajnagar", { responsive: true });
+
+  // Use a proxy
+  GitHubCalendar(".calendar", "riturajnagar", {
+     proxy (username) {
+       return fetch(`https://your-proxy.com/github?user=${riturajnagar}`)
+     }
+  }).then(r => r.text())
+</script>
