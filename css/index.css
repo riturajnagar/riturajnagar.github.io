@@ -19,6 +19,8 @@ html {
   /* margin-bottom: 10%; */
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   margin-bottom: 10%;
+  position: sticky;
+  z-index: 1;
 }
 #nav > div {
   margin: 2%;
@@ -35,6 +37,7 @@ html {
   text-decoration: none;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   position: sticky;
+  z-index: 1;
 }
 
 #nav > div > a:hover {
