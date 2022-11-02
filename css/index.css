@@ -256,7 +256,7 @@ a {
 }
 
 #aboutextra {
- padding: 50px;
+  padding: 50px;
   background-color: var(--bg-color);
   margin-top: 20px;
   background-color: rgb(174, 171, 171);
@@ -289,7 +289,6 @@ a {
   margin-bottom: 20px;
   border-radius: 20px;
   background-color: white;
-  
 }
 
 #eat_sleep_img {
@@ -303,9 +302,9 @@ a {
 
 /* skill section start  */
 #skills_section {
-  margin-top: 10%;
+  padding-top: 10%;
   /* border: 1px solid red; */
-  margin-bottom: 10%;
+  padding-bottom: 10%;
 }
 
 #skill {
@@ -437,6 +436,7 @@ a {
   margin: auto;
   background-color: rgb(9, 9, 9);
   padding: 5px;
+  margin-bottom: 10%;
 }
 
 /* github section end */
@@ -444,20 +444,21 @@ a {
 /* project section start */
 
 #project_section {
-  margin-top: 20%;
-  margin-bottom: -15%;
+  padding-top: 8%;
+  /* margin-top: 60%; */
+  
   /* border: 1px solid white; */
 }
 #project {
   text-align: center;
-  font-size: 40px;
-  margin-bottom: 10px;
+  font-size: 30px;
+  /* margin-bottom: 10px; */
   /* border: 1px solid red; */
   background-color: white;
-  
+
   border-radius: 20px;
   margin: 0px 90px 0px 90px;
-
+  /* margin-top: 20px; */
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
@@ -465,7 +466,8 @@ a {
   /* border: 1px solid red; */
   border-radius: 22px;
   font-size: 50px;
-  padding: 10px;
+  padding: 7px;
+  /* padding-top: 0px; */
   background-color: white;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
@@ -475,7 +477,7 @@ a {
   /* height: 100px; */
   width: 50%;
   margin-left: 6%;
-  
+
   border-radius: 10px;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
@@ -505,8 +507,10 @@ a {
 .project1 > img {
   width: 100%;
   height: 400px;
-  margin: auto;
+  margin: 1%;
+  margin-left:1.8% ;
   border-radius: 20px;
+  border: 1px solid black;
 }
 .project1 > div {
   margin: auto;
@@ -563,8 +567,8 @@ a {
 /* project section end */
 
 #contact_section {
-  margin-top: 30%;
-  margin-bottom: 5%;
+  padding-top: 30%;
+  /* margin-bottom: 5%; */
 }
 #contacts {
   text-align: center;
@@ -575,7 +579,7 @@ a {
   border-radius: 20px;
   margin: auto;
   margin: 0px 90px 0px 90px;
-  /* margin-bottom: 100px; */
+  margin-bottom: 30px;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
@@ -583,20 +587,23 @@ a {
 
 #contact {
   background-color: transparent;
+  width: 100%;
+  padding: 0px;
   display: grid;
+  margin: auto;
   grid-template-columns: repeat(2, 40%);
   /* border-radius: 20px; */
   justify-content: center;
 
-  margin: auto;
-  margin-top: 0px;
-
   margin-bottom: 2%;
+  
   /* border: 1px solid red; */
 }
 
 .myDetails {
   /* background-color: #b5e7a0; */
+  /* border: 1px solid red; */
+  margin-left: 10%;
   border-radius: 20px 0px 0px 20px;
   padding: 20px 0px 0px 30px;
   background-color: white;
@@ -782,9 +789,6 @@ a {
 
   /* contact section start */
 
-  #contact_section {
-    margin-top: 60%;
-  }
   #contact {
     /* border: 1px solid red; */
     margin-top: 100px;
@@ -852,18 +856,20 @@ a {
     grid-template-columns: repeat(1, 100%);
     border: 1px solid rgb(178, 173, 173);
     padding: 10px;
+    width: 100%;
   }
-
+  .project1 img{
+    border: 1px solid black;
+    height: 100%;
+  }
   /* project section end */
 
   /* contact section start */
 
-  #contact_section {
-    margin-top: 60%;
-  }
+  
   #contact {
     /* border: 1px solid red; */
-    margin-top: 100px;
+    margin-top: 10px;
     padding-left: 0%;
   }
 
@@ -942,19 +948,22 @@ a {
     margin: 0px 10% 0px 10%;
     padding: 10px;
     border-radius: 5px;
+    margin-bottom: 50px;
   }
 
   #contact {
     display: grid;
     grid-template-columns: 1fr;
     gap: 5px;
-
+/* border: 1px solid red; */
     margin: auto;
     margin-bottom: 1%;
   }
   #contact .myDetails {
     /* border: 1px solid red; */
     border-radius: 10px;
+    margin: auto;
+    width: 100%;
   }
 
   .contact-link {
@@ -1004,7 +1013,6 @@ a {
     flex-direction: column;
     gap: 5rem;
     height: auto;
-    
   }
 
   .hero img {
@@ -1037,7 +1045,6 @@ a {
   }
   .more-about h2 {
     text-align: center;
-   
   }
 
   .more-about p {
