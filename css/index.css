@@ -415,11 +415,10 @@ a {
   margin-top: 20%;
   margin-bottom: 6%;
 }
-#github_stats{
-display: flex;
-justify-content: space-evenly;
+#github_stats {
+  display: flex;
+  justify-content: space-evenly;
   padding-bottom: 10px;
-  
 }
 #github {
   text-align: center;
@@ -447,7 +446,15 @@ justify-content: space-evenly;
   padding: 5px;
   margin-bottom: 10%;
 }
-
+#github_graph{
+  border: 5px solid black;
+  width: 90%;
+  margin: auto;
+}
+.git_graph>img{
+  width: 100%;
+  padding: 10px;
+}
 /* github section end */
 
 /* project section start */
@@ -770,6 +777,7 @@ justify-content: space-evenly;
     position: sticky;
     top: 0;
   }
+
   .container {
     max-width: 1050px;
     width: 90%;
@@ -944,9 +952,9 @@ justify-content: space-evenly;
   /* project section start */
 
   .project1 {
-    grid-template-columns: repeat(1, 100%);
+    grid-template-columns: repeat(1, 90%);
     border: 1px solid rgb(178, 173, 173);
-    padding: 10px;
+    
   }
 
   /* project section end */
@@ -963,12 +971,28 @@ justify-content: space-evenly;
   /* contact section end  */
 
   /* github section start */
+  #github_stats {
+    display: grid;
+   
+    justify-content: center;
 
+    padding: 10px;
+  }
   #github_cont {
     width: 100%;
     margin: auto;
 
     padding: 5px;
+  }
+  #github_graph{
+    border: 5px solid black;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .git_graph>img{
+    width: 100%;
+    padding: 10px;
   }
 
   /* gihub section end  */
