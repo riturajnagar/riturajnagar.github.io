@@ -923,10 +923,10 @@ a {
   }
 
   .navbar .menu-items {
-    padding-top: 80px;
-    box-shadow: inset 0 0 2000px transparent;
-    height: 60vh;
-    width: 50%;
+    padding-top: 120px;
+    /* box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5); */
+    height: 85vh;
+    width: 100%;
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
@@ -934,6 +934,7 @@ a {
     padding-left: 50px;
     transition: transform 0.5s ease-in-out;
     text-align: center;
+    color: #2f292a;
   }
 
   .navbar .menu-items li {
@@ -950,24 +951,78 @@ a {
     color: #0e2431;
   }
 
-  .nav-container input[type="checkbox"]:checked ~ .menu-items {
+  /* .nav-container input[type="checkbox"]:checked~.menu-items {
+    transform: translateX(0);
+  } */
+
+  .nav-container .menu-items.show {
     transform: translateX(0);
   }
 
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  /* .nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
+    transform: rotate(45deg);
+  } */
+
+  .nav-container .hamburger-lines.show .line1 {
     transform: rotate(45deg);
   }
 
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  /* .nav-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
+    transform: scaleY(0);
+  } */
+
+  .nav-container .hamburger-lines.show .line2 {
     transform: scaleY(0);
   }
 
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  /* .nav-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  } */
+
+  .nav-container .hamburger-lines.show .line3 {
     transform: rotate(-45deg);
   }
 
   .nav-container input[type="checkbox"]:checked ~ .logo {
     display: none;
+  }
+
+  /* burger menu css end  */
+
+  #nav {
+    display: none;
+  }
+
+  #resume {
+    display: block;
+    /* border: 1px solid rbio animate__animated animate__shakeX*/
+    text-align: center;
+  }
+
+  .bio {
+    /* border: 1px solid red; */
+    padding: 20px;
+  }
+
+  /* #nav > div > a {
+    border: 1px solid white;
+    color: white;
+    padding: 4px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+      0 4px 6px -4px rgb(0 0 0 / 0.1);
+    position: sticky;
+  } */
+
+  /* navbar end  */
+
+  .bio {
+    width: 18.3rem;
   }
 
   /* burger menu css end  */
