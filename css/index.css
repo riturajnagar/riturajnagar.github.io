@@ -1043,19 +1043,10 @@ a {
   }
 
   #container4 {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
-  #container4 > div {
-    border: 1px solid grey;
-    padding: 5px;
-    height: 120px;
-  }
-
-  #container4 > div > img {
-    width: 30%;
-    height: 100%;
-  }
+  
 
   /* sill section end  */
 
@@ -1138,6 +1129,9 @@ a {
 
 @media only screen and (min-width: 320px) and (max-width: 667px) {
   /* navbar start  */
+
+
+
 
   /* buger menu css  */
   nav {
@@ -1343,16 +1337,18 @@ a {
   /* skill section start */
 
   #container4 {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   #container4 > div {
     border: 1px solid grey;
     padding: 5px;
+    height: 100px;
   }
 
   #container4 > div > img {
-    width: 30%;
+    width: 70%;
+    
   }
 
   /* sill section end  */
@@ -1407,12 +1403,18 @@ a {
     border-radius: 5px;
   }
 
-  .about_font {
-    font-size: 10px;
+  #about_font li{
+    font-size: 12px !important;
+  }
+
+  #details{
+    width: 100%;
   }
 
   /* about section end  */
   /* skill section start */
+
+
   .skills-content {
     grid-template-columns: repeat(1, 1fr);
   }
