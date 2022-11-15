@@ -643,7 +643,7 @@ a {
 
 #contact {
   background-color: transparent;
-  width: 100%;
+  width: 90%;
   padding: 0px;
   display: grid;
   margin: auto;
@@ -659,7 +659,8 @@ a {
 .myDetails {
   /* background-color: #b5e7a0; */
   /* border: 1px solid red; */
-  margin-left: 10%;
+  /* margin-left: 10%; */
+  margin-left: 0px;
   border-radius: 20px 0px 0px 20px;
   padding: 20px 0px 0px 30px;
   background-color: white;
@@ -1088,8 +1089,10 @@ a {
 
   #contact {
     /* border: 1px solid red; */
+    margin: auto;
     margin-top: 100px;
     padding-left: 0%;
+
     /* margin: auto; */
   }
   .myDetails {
