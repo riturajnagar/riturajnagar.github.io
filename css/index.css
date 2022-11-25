@@ -13,10 +13,10 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-body{
+/* body{
   
-  /* background-image: linear-gradient(to right, #bf82f4, #8757e7); */
-}
+  /* background-image: linear-gradient(to right, #bf82f4, #8757e7); 
+} */
 
 html {
   scroll-behavior: smooth;
@@ -1057,8 +1057,6 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  
-
   /* sill section end  */
 
   /* project section start */
@@ -1142,9 +1140,6 @@ a {
 
 @media only screen and (min-width: 320px) and (max-width: 667px) {
   /* navbar start  */
-
-
-
 
   /* buger menu css  */
   nav {
@@ -1361,7 +1356,6 @@ a {
 
   #container4 > div > img {
     width: 70%;
-    
   }
 
   /* sill section end  */
@@ -1416,17 +1410,16 @@ a {
     border-radius: 5px;
   }
 
-  #about_font li{
+  #about_font li {
     font-size: 12px !important;
   }
 
-  #details{
+  #details {
     width: 100%;
   }
 
   /* about section end  */
   /* skill section start */
-
 
   .skills-content {
     grid-template-columns: repeat(1, 1fr);
