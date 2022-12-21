@@ -32,7 +32,7 @@ html {
   display: flex;
   justify-content: end;
   /* padding: 0px; */
-  background-color: white;
+  /* background-color: white; */
   /* margin-bottom: 10%; */
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   margin-bottom: 8%;
@@ -43,15 +43,17 @@ html {
 }
 
 #nav > div {
-  margin: 2%;
+  margin: 1.5%;
+
+  padding: 1px;
 }
 
 #nav > div > a {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   color: white;
-  padding: 10px;
-
-  font-size: 24px;
+  padding: 8px;
+  border: 1px solid white;
+  font-size: 20px;
   font-weight: bold;
   border-radius: 10px;
   cursor: pointer;
@@ -248,14 +250,19 @@ a {
   border: 1px solid var(--primary-color-dark);
   margin-top: 20px;
   display: inline;
-  color: var(--primary-color-dark);
+  /* color: transparent; */
+  /* color: var(--primary-color-dark); */
+  background-color: transparent;
   border-radius: 5px;
+  /* border: 1px solid blue ; */
 }
 
 #resume:hover {
-  transition: var(--transition);
-  padding: 12px;
-  color: black;
+  /* transition: var(--transition); */
+  /* padding: 12px; */
+  /* border: 1px solid red; */
+  /* background-color: rgb(245, 76, 76); */
+  /* color: black; */
 }
 
 #homeextra {
