@@ -258,13 +258,13 @@ a {
   /* border: 1px solid blue ; */
 }
 
-#resume:hover {
+/* #resume:hover { */
   /* transition: var(--transition); */
   /* padding: 12px; */
   /* border: 1px solid red; */
   /* background-color: rgb(245, 76, 76); */
   /* color: black; */
-}
+/* } */
 
 #homeextra {
   height: 80px;
