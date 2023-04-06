@@ -3,7 +3,7 @@
   margin: 0%;
   padding: 0%;
 
-  background-color: rgb(171, 167, 167);
+  background-color: rgb(125, 70, 70);;
   /* background-color: #578f8c;
   background-image: url('../resources/background1.jpg');
   background-repeat: no-repeat;
@@ -62,7 +62,8 @@ html {
 }
 
 #nav > div > a:hover {
-  background-color: rgb(245, 76, 76);
+  background-color: white;
+  color: rgb(125, 70, 70);;
 }
 
 /* about section  */
@@ -144,8 +145,8 @@ html {
   /* max-width: 68.75rem; */
   height: 400px;
   margin: auto;
-  background-color: var(--bg-color);
-  background-color: rgb(171, 167, 167);
+  /* background-color: var(--bg-color);
+  background-color: rgb(171, 167, 167); */
   /* background-color: white; */
 }
 
