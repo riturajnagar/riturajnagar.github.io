@@ -298,9 +298,9 @@ a {
 
 #aboutextra {
   padding: 50px;
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   margin-top: 20px;
-  background-color: rgb(174, 171, 171);
+  /* background-color: rgb(174, 171, 171); */
 }
 
 #aboutextra2 {
