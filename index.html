@@ -1,379 +1,559 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1662133488128239"
-    crossorigin="anonymous"></script>
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="./css/index.css" />
-  <link rel="stylesheet" href="./css/github-calendar-responsive.css" />
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
-  <title>Rituraj Nagar | Java Backend Developer</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="PyLoops is a modern and fully responsive  pyloops.">
+	<meta name="author" content="">
+	<title>Rituraj Nagar | Java Backend Developer</title>
+	<link href="assets/fontawesome/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="assets/css/da-slider.css" />
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
 </head>
 
 <body>
-  <div id="top"></div>
-  <!-- burger menu start  -->
-  <nav>
-    <div class="navbar">
-      <div class="container nav-container">
-        <input class="checkbox" type="checkbox" name="" id="" />
-        <div class="hamburger-lines">
-          <span class="line line1"></span>
-          <span class="line line2"></span>
-          <span class="line line3"></span>
-        </div>
-        <div class="logo">
-          <h1>Portfolio</h1>
-        </div>
-        <div class="menu-items">
-          <li><a href="#top">Home</a></li>
-          <li><a href="#aboutextra">About</a></li>
-          <li><a href="#skills_section">Skills</a></li>
-          <li><a href="#project_section">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li>
-            <a href="./resources/Rituraj-Nagar-resume.pdf" download="Rituraj-Nagar-Resume"
-              onclick="window.open('https://drive.google.com/file/d/1cK7Pb4IOjdywPGONNSy2ChXIWW3KWX1w/view?usp=sharing')">
-              Resume</a>
-          </li>
-        </div>
-      </div>
-    </div>
-  </nav>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html">
+					<div>
+						<p style="margin-top: 15px;"> <b>Portfolio</b> </p>
+					</div>
+				</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="#">Home</a></li>
+					<li><a class="nav-link scrollto" href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="./resources/Rituraj-Nagar-resume.pdf" download="Rituraj-Nagar-Resume"
+							target="_blank">Resume</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+	<div id="scroll-progress"></div>
+	<!-- /.navbar -->
 
-  <!-- burger menu end  -->
-  <div id="nav">
-    <div><a href="#top">Home</a></div>
-    <div><a href="#aboutextra">About</a></div>
-    <div><a href="#skills_section">Skills</a></div>
-    <div><a href="#project_section"> Projects</a></div>
-    <div><a href="#contact"> Contact</a></div>
-    <div>
-      <a href="./resources/Rituraj-Nagar-resume.pdf" download="Rituraj-Nagar-Resume"
-        onclick="window.open('https://drive.google.com/file/d/1cK7Pb4IOjdywPGONNSy2ChXIWW3KWX1w/view?usp=sharing')">
-        Resume</a>
-    </div>
-  </div>
+	<!-- Intro -->
+	<div class="container text-center">
+		<br>
 
-  <section id="home" class="hero">
-    <img src="./resources/profile_pic.jpg" alt="Rituraj Nagar" loading="lazy" class="hero-img" />
-    <div class="bio animate__animated animate__shakeX">
-      <h2 class="bio-title">Hello, My name is</h2>
-      <h1 id="heading" style="color: white">Rituraj Nagar</h1>
-      <div class="container">
-        <h2 class="title">
-          <span class="title-word title-word-1">I'm</span>
-          <span class="title-word title-word-2">Java</span>
-          <span class="title-word title-word-3">Backend</span>
-          <span class="title-word title-word-4">Developer</span>
-        </h2>
-        <!-- <button type="button">Resume</button> -->
-      </div>
-      <h2 id="resume">
-        <a href="./resources/Rituraj-Nagar-resume.pdf" download="Rituraj-Nagar-Resume">
-          Resume</a>
-      </h2>
-    </div>
-  </section>
+		<br>
+		<br>
 
-  <!-- <section class="about">
-        <div class="main">
-          <img id="profile_of" src="./resources/profile_pic.jpg" />
-          <div class="about-text">
-            <h2>About Me</h2>
-            <h5>Java <span>Backend</span> Developer</h5>
-            <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have tremendous interest towards tech, I have
-              completed MCA in Computer Application and currently I am persuing
-              Full Stack Web Development Course at Masai School I love to
-              develope the Softwares that impacts the Society.
-              <br />
+		<br>
+		<div class="row">
+			<div class="col-sm-6">
+				<img class="image-animation hero-img" alt="Rituraj Nagar" loading="lazy"
+					src="assets/images/profile_pic.jpg"
+					style="background-image: linear-gradient(#DF4E20, #565454); border: 2px solid black; border-radius: 15px;" />
+			</div>
+			<div class="col-sm-6 mx-auto" style="border: 2px solid black; border-radius: 15px; margin-top: 20px;">
+				<div class="bio animate__animated animate__shakeX">
+					<h2 class="bio-title">Hello, My name is</h2>
+					<h1>Rituraj Nagar</h1>
+					<div>
+						<h2 class="title">
+							<span class="title-word title-word-1">I'm</span>
+							<span class="title-word title-word-2">Java</span>
+							<span class="title-word title-word-3">Backend</span>
+							<span class="title-word title-word-4">Developer</span>
+						</h2>
+						<!-- <button type="button">Resume</button> -->
+					</div>
+					<h2 id="resume">
+						<a href="./resources/Rituraj-Nagar-resume.pdf" download="Rituraj-Nagar-Resume" target="_blank">
+							Resume</a>
+					</h2>
+				</div>
+			</div>
+		</div>
 
-              <ul style="list-style-type: circle; font-size: 18px;">
-          
-             <li>  I worked on many projects during my <b> Masai School</b> journey. Some of them are clone of <b> Gearbest.com</b> and <b> Max-Fashion.com </b> using <b> HTML, CSS ,javascript</b>.</li>
-               <br>
-              <li> In one of the projects I was assigned as <b> team leader</b>, There I learned how to collaborate with team members and manage the workflow in a team.</li>
-              <br>
-              <li> Apart from that I have done <b> 1200+ hours</b> of coding, gone through <b> 100+ hours</b> to develop my soft skills and done with <b> 9-9-6 </b>i.e 9 am to 9 pm for 6 days of the week, military-style coding curriculum in Masai School.</li>
-              <br />
-            </ul>
-            </p>
-          </div>
-        </div>
-      </section> -->
-  <div id="aboutextra"></div>
-  <section class="more-about" id="about">
-    <h2 id="about_experience">All About Me & My Experience</h2>
-    <div id="details">
-      <ul style="list-style-type: circle" id="about_font">
-        <li style="font-size: 22px">
-          I recently completed
-          <b> 30 Weeks Full Stack Web Development</b> course at
-          <b> Masai School</b>.
-        </li>
-        <br />
-        <li style="font-size: 22px">
-          Also I did <b> Master of Computer Application</b> in 2021 from
-          <b> Technocrats Institute of Technology(Excellence) </b>and did
-          <b> Bachelor of Computer Science </b> from Sect College of
-          Professional Education and 12th and 10th from the Madhya Pradesh
-          board in the years 2015 and 2013.
-        </li>
-        <br />
-        <li style="font-size: 22px">
-          I worked on many projects during my <b> Masai School</b> journey.
-          Some of them are clone of <b> Gearbest.com</b> and
-          <b> Max-Fashion.com </b> using <b> HTML, CSS, Javascript</b>.
-        </li>
-        <br />
-        <li style="font-size: 22px">
-          In one of the projects I was assigned as team leader, There I
-          learned how to collaborate with team members and manage the workflow
-          in a team.
-        </li>
-        <br />
-        <li style="font-size: 22px">
-          Apart from that I have done <b> 1200+ hours</b> of coding, gone
-          through <b> 100+ hours</b> to develop my soft skills and done with
-          <b> 9-9-6 </b>i.e 9 am to 9 pm for 6 days of the week,
-          military-style coding curriculum in Masai School.
-        </li>
-      </ul>
+		<!-- <div>
+			<p class="text-muted text-start" style="margin-top: 20px; text-align: justify;">At <b> PyLoops </b>, we understand the importance of having the right IT staff to drive your business forward. 
+				With our proven track record and commitment to excellence, 
+				we ensure that you receive exceptional IT staffing solutions that align with your goals.
+				Contact us today to discuss how we can support your staffing needs and propel your organization to new heights.
+			</p>
+		</div> -->
 
-      <!-- <p>Aspiring Java Backend Developer certified from Masai School with
-              1200+ hours of coding experience. Obtained efficient Programming
-              and soft skills. Having a good knowledge of Data structures and
-              algorithms, looking to leverage my expertise in a position as Java
-              Developer.</p> -->
-    </div>
-  </section>
-  <!-- <img id="eat_sleep_img" src="./resources/eat_sleep.png" alt="" /> -->
+	</div>
+	<!-- /Intro-->
 
-  <div id="skills_section">
-    <h2 id="skill">Tech Skills</h2>
-    <div id="container4">
-      <div>
-        <img src="./resources/java.jpg" alt="java" />
-      </div>
-      <div>
-        <img src="./resources/mysql.png" alt="my sql" />
-      </div>
-      <div>
-        <img src="./resources/springboot.png" alt="springboot" />
-      </div>
-      <div>
-        <img src="./resources/DSA.png" alt="dsa" />
-      </div>
-      <div>
-        <img src="./resources/git.png" alt="git" />
-      </div>
-      <div>
-        <img src="./resources/javascript.png" alt="javascript" />
-      </div>
-      <div>
-        <img src="./resources/css.png" alt="css" />
-      </div>
-      <div>
-        <img src="./resources/html.png" alt="html" />
-      </div>
-    </div>
-  </div>
+	<!-- about us page in index  start-->
+	<section id="about">
+		<div class="container text-justify">
+			<div class="row">
+				<article class="col-sm-6 maincontent">
+					<header class="page-header">
+						<h1 class="page-title">About me</h1>
+					</header>
+					<div id="details">
+						<ul class="list-unstyled">
+							<li>
+								I recently completed
+								<b> 30 Weeks Full Stack Web Development</b> course at
+								<b> Masai School</b>.
+							</li>
+							<br />
+							<li>
+								Also I did <b> Master of Computer Application</b> in 2021 from
+								<b> Technocrats Institute of Technology(Excellence) </b>and did
+								<b> Bachelor of Computer Science </b> from Sect College of
+								Professional Education and 12th and 10th from the Madhya Pradesh
+								board in the years 2015 and 2013.
+							</li>
+							<br />
+							<li>
+								I worked on many projects during my <b> Masai School</b> journey.
+								Some of them are clone of <b> Gearbest.com</b> and
+								<b> Max-Fashion.com </b> using <b> HTML, CSS, Javascript</b>.
+							</li>
+							<br />
+						</ul>
+					</div>
+					<div class="about_info">
+						<div>
+							<span class="about_info-title">1200+</span>
+							<span class="about_info-name">Hours of Coding</span>
+						</div>
+						<div>
+							<span class="about_info-title">10+</span>
+							<span class="about_info-name">Completed Projects</span>
+						</div>
+						<div>
+							<span class="about_info-title">800+</span>
+							<span class="about_info-name">DSA Problems</span>
+						</div>
+					</div>
+				</article>
+				<div class="col-sm-6 maincontent">
+					<img class="image-animation" src="assets/images/custom/consulting.svg" />
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- about us page in index  end-->
 
-  <section class="myskills" id="myskill">
-    <div class="heading">
-      <h2 id="skillhead">Skills</h2>
-    </div>
+	<!-- Skills page in index  start-->
+	<section id="skills" class="container">
+		<div class="container text-justify">
+			<header class="page-header">
+				<h1 class="page-title">Skills</h1>
+			</header>
+		</div>
+		<div class="skills-container text-center">
+			<div class="card">
+				<img src="./assets/images/resources/backend.png" class="card-img-top" alt="backend">
+				<div class="card-body">
+					<p class="card-text">Back-End Development</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/images/resources/frontend.jpg" class="card-img-top" alt="frontend">
+				<div class="card-body">
+					<p class="card-text">Front-End Development</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/images/resources/communication.png" class="card-img-top" alt="communication">
+				<div class="card-body">
+					<p class="card-text">Communication</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/images/resources/dsaa.png" class="card-img-top" alt="Data Structures">
+				<div class="card-body">
+					<p class="card-text">Data-Structures Algorithms</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Skills page in index  end-->
 
-    <div class="skills-content" id="myskills">
-      <div class="skills-box">
-        <img src="./resources/backend.png" alt="backend" />
-        <h3>Back-End Development</h3>
-      </div>
-      <div class="skills-box">
-        <img src="./resources/frontend.jpg" alt="frontend" />
-        <h3>Front-End Development</h3>
-      </div>
-      <div class="skills-box">
-        <img src="./resources/communication.png" alt="communication" />
-        <h3>Communication</h3>
-      </div>
-      <div class="skills-box">
-        <img src="./resources/dsaa.png" alt="" />
-        <h3>Data-Structures Algorithms</h3>
-      </div>
-    </div>
-  </section>
+	<!-- Teck-stack page in index  start-->
+	<section id="tech-skills" class="container">
+		<div class="container text-justify">
+			<header class="page-header">
+				<h1 class="page-title">Tech Skills</h1>
+			</header>
+		</div>
+		<div class="tech-container text-center">
+			<div class="tech-card">
+				<img src="./assets/images/resources/java.jpg" class="card-img-top" alt="Java">
+			</div>
+			<div class="tech-card">
+				<img src="assets/images/resources/springboot.png" class="card-img-top" alt="springboot">
+			</div>
+			<div class="tech-card">
+				<img src="assets/images/resources/mysql.png" class="card-img-top" alt="mysql">
+			</div>
+			<div class="tech-card">
+				<img src="assets/images/resources/react.png" class="card-img-top" alt="react">
+			</div>
+			<div class="tech-card">
+				<img src="assets/images/resources/nextjs.png" class="card-img-top" alt="nextjs">
+			</div>
+			<div class="tech-card">
+				<img src="assets/images/resources/javascript.png" class="card-img-top" alt="javascript">
+			</div>
+			<div class="tech-card">
+				<img src="assets/images/resources/bootstrap.png" class="card-img-top" alt="bootstrap">
+			</div>
+			<div class="tech-card">
+				<img src="assets/images/resources/css.png" class="card-img-top" alt="css">
+			</div>
+			<div class="tech-card">
+				<img src="assets/images/resources/html.png" class="card-img-top" alt="html">
+			</div>
+			<div class="tech-card">
+				<img src="assets/images/resources/git.png" class="card-img-top" alt="github">
+			</div>
+			<div class="tech-card">
+				<img src="assets/images/resources/bitbucket.png" class="card-img-top" alt="bitbucket">
+			</div>
+			<div class="tech-card">
+				<img src="assets/images/resources/jira.png" class="card-img-top" alt="jira">
+			</div>
+		</div>
 
-  <!-- github details -->
+	</section>
+	<!-- Teck-stack page in index  end-->
 
-  <div id="github_section">
-    <div id="github">
-      <h2>Github Statistics</h2>
-    </div>
-  </div>
-  <div id="github_cont">
-    <div id="github_stats">
-      <div>
-        <img alt="Rituraj Nagar's Github Stats"
-          src="https://github-readme-streak-stats.herokuapp.com/?user=riturajnagar&theme=radical" />
-      </div>
-      <div>
-        <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Rituraj Nagar's streak"
-          src="https://github-readme-stats.vercel.app/api?username=riturajnagar&count_private=true&show_icons=true&theme=radical" />
-      </div>
-    </div>
-    <div class="calendar">
-      <!-- Loading stuff -->
-      Loading the data just for you.
-    </div>
-  </div>
-  <!-- <div id="github_graph">
-      <div class="git_graph">
-        <img
-          alt="Rituraj Nagar's Activity Graph"
-          src="https://activity-graph.herokuapp.com/graph?username=riturajnagar&bg_color=181818&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true"
-        />
-      </div>
-    </div> -->
-  <!-- github details end  -->
+	<!-- Experience -->
+	<section id="experience" class="container">
+		<div class="services-section">
+			<!-- Article content -->
+			<div class="maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Experience</h1>
+				</header>
+			</div>
+			<div class="text-justify container">
+				<h2 class="my-3 text-center">White Feather Consultancy Pvt. Ltd.</h2>
+				<div class="text-center">
+					<p>(April 2023 - Present)</p>
+				</div>
+				<p>
+					Coded web applications utilizing programming languages including JavaScript, HTML, CSS
+					and AJAX.
+				</p>
+				<p>
 
-  <div id="project_section">
-    <div id="project">
-      <h2>Project</h2>
-    </div>
-  </div>
+					Built web pages that are more user-interactive using jQuery, Plugins for Drag and Drop,
+					JSON, JavaScript and
+				</p>
+				<p>
+					Created Typescript controllers for the different pages in the views using Typescript’s.
+				</p>
+				<p>
+					Worked with J2EE and J2SE technologies including JSP's, Servlets, Java Web Start, EJB
+					and Web logic. Implemented JAVA Web Services based on SOA architecture with SOAP and
+					WSDL.
+				</p>
+				<p>
+					Created stored procedures, sequences, tables, indexes, triggers, views on Oracle DB
+				</p>
+				<p>
+					Developed back-end stored procedures and triggers using Oracle PL/SQL, involved in
+					database objects creation, performance tuning of stored procedures, and query plan.
+				</p>
+				<p>
+					Used XML Web Services using SOAP to transfer the amount to transfer applications that
+					are remote and global to different financial institutions. Developed JSPs, Struts
+					Actions and Action Forms, Tiles layouts and DB2 SQLs.
+				</p>
+				<p>
+					Developed Web Services to communicate to other modules using XML based SOAP and WSDL
+					protocols.
+				</p>
+				<p>
+					Used Struts Model-View-Controller approach to help design new features and fix Jira bugs
+					and requests.
+				</p>
+				<p>
+					Used Git, Visual Studio, Web Storm, and SQL Server Management Studio in daily
+					development activities.
+				</p>
 
-  <div id="project_section" style="padding: 0px">
-    <div class="project1">
-      <img src="./resources/mpay.png" alt="M-Pay-Image" />
-      <div>
-        <h3>M-Pay Payment Wallet Application</h3>
-        <p>
-          M-Pay is a rest api which helps to keep the track of user login,
-          wallet transaction, can add account to wallet and also can manage
-          the transactions in the database.
-        </p>
-        <h3>Tech Stack :</h3>
-        <p>Java | Spring Boot | MySQL | Spring Data JPA | Swagger</p>
-        <div class="projectLink">
-          <a href="https://github.com/abhitim/judicious-loss-7894" class="btn">Code</a>
-          <a href="https://drive.google.com/file/d/1y74w2owfnvYxA0dPGKyHRsA1Kftzj_2V/view?usp=sharing"
-            class="btn">Video</a>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="project1">
-        <img src="./resources/Project_Gearbest.png" alt="Gearbest-Image" />
-        <div>
-          <h3>Gearbest clone</h3>
-          <p>
-            Gear Best is an electronic product brand here use can search for
-            electronic products and buy from there.
-          </p>
-          <h3>Tech Stack :</h3>
-          <p>HTML | CSS | Javascript</p>
-          <div class="projectLink">
-            <a
-              href="https://github.com/riturajnagar/clammy-lunch-3349"
-              class="btn"
-              >Code</a
-            >
-            <a href="https://effulgent-douhua-9bf693.netlify.app/" class="btn"
-              >Live</a
-            >
-          </div>
-        </div>
-      </div> -->
-    <div class="project1">
-      <img
-        src="https://i1.lmsin.net/website_images/bh/static-pages/en/tour/max/desktop/max-smartsearch-tour-desktop-en.jpg"
-        alt="max-fashion-Image" />
-      <div>
-        <h3>Max-Fashion clone</h3>
-        <p>
-          Max-Fashion is an E-Commerce website that deals in multiple products
-          for each segment of brand new designs, silhouettes, and fabrics
-          items of clothing.
-        </p>
-        <h3>Tech Stack :</h3>
-        <p>HTML | CSS | Javascript</p>
-        <div class="projectLink">
-          <a href="https://github.com/riturajnagar/Max-Fashion-clone-" class="btn">Code</a>
-          <a href="https://max-fashion-05.netlify.app/" class="btn">Live</a>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div id="contact_section">
-    <h2 id="contacts">Contact</h2>
-  </div>
 
-  <div id="contact">
-    <div class="myDetails">
-      <h1>Have an idea??</h1>
-      <div>Let's Connect!</div>
-      <div class="myMail">
-        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="mail-logo" />
-        <p>riturajnagar78@gmail.com</p>
-      </div>
-      <div class="myNumber">
-        <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Mno-logo" />
-        <p>+91-7898612145</p>
-      </div>
-      <div class="contact-link">
-        <a href="https://github.com/riturajnagar"><img src="https://cdn-icons-png.flaticon.com/512/270/270798.png"
-            alt="logo-github" /></a>
-        <a href="https://linkedin.com/in/riturajnagar"><img
-            src="https://cdn-icons-png.flaticon.com/512/2504/2504923.png" alt="logo-linkdin" /></a>
-      </div>
-    </div>
-    <div class="email-form">
-      <form action="https://formsubmit.co/riturajnagar78@gmail.com" method="POST">
-        <h3>GET IN TOUCH</h3>
-        <input type="text" name="name" id="name" placeholder="Your Name" required />
-        <input type="email" name="email" id="email" placeholder="Email" required />
+			</div>
 
-        <textarea name="textarea" id="msg" rows="4" placeholder="Write Your Message"></textarea>
-        <button type="submit" class="btn1" id="btn2">Send</button>
-      </form>
-    </div>
-  </div>
+		</div>
+	</section>
+	<!-- /experience -->
 
-  <div id="bottom">
-    Made By Rituraj with <img src="./resources/love.webp" alt="" />
-  </div>
+	<!-- project section -->
+
+	<section id="projects">
+		<div class="container text-justify">
+			<header class="page-header">
+				<h1 class="page-title">Projects</h1>
+			</header>
+			<div class="project_container">
+				<div class="project_img"><img class="image-animation" src="assets/images/resources/mpay.png" /></div>
+				<div class="project_data">
+					<h3>M-Pay Payment Wallet Application</h3>
+					<p>
+						M-Pay is a rest api which helps to keep the track of user login, wallet transaction, can add
+						account to wallet and also can manage the transactions in the database.
+					</p>
+					<h3>Tech Stack</h3>
+					<p>Java | Spring Boot | MySQL | Spring Data JPA | Swagger</p>
+					<div class="project_info">
+						<div>
+							<a target="_blank" href="https://github.com/riturajnagar/judicious-loss-7894">Code</a>
+							<!-- <span class="about_info-name">Hours of Coding</span> -->
+						</div>
+						<!-- <div><a href="https://github.com/abhitim/judicious-loss-7894">Live</a>
+							 <span class="about_info-name">Completed Projects</span> 
+						</div> -->
+					</div>
+				</div>
+			</div>
+			<div class="project_container">
+				<div class="project_img"><img class="image-animation"
+						src="https://i1.lmsin.net/website_images/bh/static-pages/en/tour/max/desktop/max-smartsearch-tour-desktop-en.jpg" />
+				</div>
+				<div class="project_data">
+					<h3>Max-Fashion clone</h3>
+					<p>
+						Max-Fashion is an E-Commerce website that deals in multiple products for each segment of brand
+						new designs, silhouettes, and fabrics items of clothing.
+					</p>
+					<h3>Tech Stack</h3>
+					<p>HTML | CSS | Javascript</p>
+					<div class="project_info">
+						<div>
+							<a target="_blank" href="https://github.com/riturajnagar/Max-Fashion-clone-">Code</a>
+							<!-- <span class="about_info-name">Hours of Coding</span> -->
+						</div>
+						<div><a target="_blank" href="https://max-fashion-05.netlify.app/">Live</a>
+							<!-- <span class="about_info-name">Completed Projects</span> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- project section -->
+
+	<!-- github statistics -->
+	<section id="tech-skills">
+		<div class="container text-justify">
+			<header class="page-header">
+				<h1 class="page-title">Github Contributions</h1>
+			</header>
+			<!-- ========== Statistics ========== -->
+			<div class="statistics_container">
+				<img id="github-stats-card"
+					src="https://github-readme-stats.vercel.app/api?username=riturajnagar&theme=city_light&hide_border=true&include_all_commits=true&count_private=true"
+					alt="github-stats-card">
+				<img id="github-top-langs"
+					src="https://github-readme-stats.vercel.app/api/top-langs/?username=riturajnagar&langs_count=4&theme=city_light&hide_border=true&include_all_commits=true&count_private=true&layout=compact"
+					alt="github-top-langs">
+				<img id="github-streak-stats"
+					src="https://github-readme-streak-stats.herokuapp.com/?user=riturajnagar&ring=5094f0&currStreakLabel=5094f0&fire=5094f0&theme=city_light&hide_border=true"
+					alt="github-streak-stats">
+			</div>
+			<span class="section_subtitle">Github Calendar</span>
+			<div class="react-activity-calendar calendar">
+				<!-- Loading stuff -->
+				Loading the data just for you.
+			</div>
+		</div>
+	</section>
+	<!-- github statistics  -->
+
+	<!-- achievements section  -->
+
+	<section>
+		<div class="container text-justify">
+			<header class="page-header">
+				<h1 class="page-title">Achievements</h1>
+			</header>
+
+			<div class="container">
+				<img class="certificate" src="/assets/images/resources/certificate.jpg" alt="certificate">
+			</div>
+		</div>
+	</section>
+
+	<!-- achievements section  -->
+
+	<!-- contact us page in index start -->
+
+	<section id="contact">
+		<div class="container text-justify">
+			<header class="page-header">
+				<h1 class="page-title">Contact Me</h1>
+				<div class="contact_container">
+					<form action="https://formsubmit.co/riturajnagar78@gmail.com" method="POST">
+						<!-- <h3>GET IN TOUCH</h3> -->
+						<input type="text" name="name" class="form-control p-4" id="name" placeholder="Your Name"
+							required />
+						<input type="email" name="email" class="form-control p-4" id="email" placeholder="Email"
+							required />
+						<textarea class="form-control py-3 px-4" rows="5" name="textarea" id="msg" rows="4"
+							placeholder="Write Your Message"></textarea>
+						<button type="submit" class="btn btn-outline-primary" id="btn2">Send Message</button>
+					</form>
+				</div>
+			</header>
+		</div>
+	</section>
+	<!-- contact us page in index  end -->
+
+	<!-- FAQ Section Start-->
+	<div id="faq">
+		<h1 id="faq-collapse"><span id="frequently-asked">Frequently Asked</span> <span
+				style="color: #DF4E20; text-transform: uppercase; font-size: larger;">Questions!</span></h1>
+		<hr>
+
+		<button class="collapsible">What are your future ambitions?</button>
+		<div class="content">
+			<p>Well, I think planning for the future at this age may bring depression if things don't go according to
+				plan because we don't know what the future holds for us, so I am very open to whatever opportunities the
+				future may hold. I pride myself on being flexible and adaptable. I think the best way to plan for the
+				future is to make the most of the present.
+			</p>
+		</div>
+		<hr>
+
+		<button class="collapsible">Can you work under pressure?</button>
+		<div class="content">
+			<p>Yes! I can work under pressure. And I'll make sure that I give my 100%.
+			</p>
+		</div>
+		<hr>
+
+		<button class="collapsible">How Do You Make Decisions?</button>
+		<div class="content">
+			<p>I like to gather as much information as possible to aid in my decision, but I also consider how much time
+				is available to me. Sometimes a decision needs to be made quickly, even if all the information can’t be
+				gathered, so I weigh time versus information. Then I look at possible outcomes and the likely results of
+				my decisions and make the best choice for my team and my organization with the facts available.
+			</p>
+		</div>
+		<hr>
+
+		<button class="collapsible">Where do you see yourself After 5 years?</button>
+		<div class="content">
+			<p>There are so many talented people here. I want to do a great job and let's see where my talents take me.
+			</p>
+		</div>
+		<hr>
+	</div>
+	<!-- FAQ Section Ends-->
+
+	<!-- ========== FOOTER ========== -->
+	<footer class="footer">
+		<div class="footer_bg">
+			<div>
+				<img src="/assets/images/resources/footer.png" alt="">
+			</div>
+			<div>
+				<div class="footer_container container grid">
+					<div>
+						<h1 class="footer_title">Rituraj Nagar</h1>
+						<span class="footer_subtitle">Java Backend Developer</span>
+					</div>
+					<div class="footer_socials">
+						<!-- email -->
+						<a id="contact-email" href="mailto: riturajnagar78@gmail.com" target="_blank"
+							class="footer_social">
+							<i class="uil-envelope-alt"></i>
+						</a>
+						<!-- call -->
+						<!-- <a id="contact-call" href="https://api.whatsapp.com/send?phone=+917898612145" target="_blank"
+							class="footer_social">
+							<i class=" uil-whatsapp"></i>
+						</a> -->
+						<a href="https://github.com/riturajnagar" target="_blank" class="footer_social">
+							<i class="uil uil-github-alt"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/riturajnagar/" target="_blank" class="footer_social">
+							<i class=" uil-linkedin"></i>
+						</a>
+					</div>
+				</div>
+				<div>
+					<p class="footer_copy">It's the mind that can either integrate one's happiness to infinite or
+						differentiate it to zero.</p>
+					<p class="footer_copy"><i class="uil-copyright"></i> 2023 All rights reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="assets/js/modernizr-latest.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.cslider.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jquery.headroom.min.js"></script>
+	<script src="assets/js/custom.js"></script>
 </body>
 
 </html>
-<script src="./script/index.js"></script>
 <script>
-  document.querySelector(".menu-items").addEventListener("click", function () {
-    document.querySelector(".menu-items").classList.toggle("show");
-    console.log("hi");
-  });
+	// When the user scrolls the page, execute myFunction 
+	window.onscroll = function () { myFunction() };
 
-  document.querySelector(".checkbox").addEventListener("click", function () {
-    document.querySelector(".menu-items").classList.toggle("show");
-    console.log("hi");
-  });
+	function myFunction() {
+		var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+		var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+		var scrolled = (winScroll / height) * 100;
+		document.getElementById("scroll-progress").style.width = scrolled + "%";
+	}
+	//FAQ collaps Section 
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
 
-  document.querySelector(".menu-items").addEventListener("click", function () {
-    document.querySelector(".hamburger-lines").classList.toggle("show");
-    console.log("hi");
-  });
-
-  document.querySelector(".checkbox").addEventListener("click", function () {
-    document.querySelector(".hamburger-lines").classList.toggle("show");
-    console.log("hi");
-  });
+	for (i = 0; i < coll.length; i++) {
+		coll[i].addEventListener("click", function () {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.maxHeight) {
+				content.style.maxHeight = null;
+			} else {
+				content.style.maxHeight = content.scrollHeight + "px";
+			}
+		});
+	}
 </script>
-<script src="../riturajnagar.github.io/script/github-calendar.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
-  integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+
+</script>
+<script>
+	GitHubCalendar(".calendar", "riturajnagar");
+	// or enable responsive functionality
+	GitHubCalendar(".calendar", "riturajnagar", {
+		responsive: true,
+		global_stats: true,
+		tooltips: true
+	});
+</script>
