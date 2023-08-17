@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Rituraj Nagar</h1>
-<h3 align="center">I have tremendous interest towards tech, I have completed MCA in Computer Application and currently I am persuing Full Stack Web Development Course at Masai School I love to develope the Softwares that impacts the Society. With 1200+ hours of coding and 100+ hours soft skills training looking forward to utilizing my skills in a challenging work environment.</h3>
+<h3 align="center">I have a tremendous interest in tech, I have completed MCA in Computer Application and currently, I am pursuing Full Stack Web Development Course at Masai School I love to develop the Softwares that impact Society. With 1200+ hours of coding and 100+ hours of soft skills training looking forward to utilizing my skills in a challenging work environment.</h3>
 
 - 🌱 I’m currently learning **Java**
 
