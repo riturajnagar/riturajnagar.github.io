@@ -1,11 +1,9 @@
 <h1 align="center">Hi 👋, I'm Rituraj Nagar</h1>
-<h3 align="center">I have a tremendous interest in tech, I have completed an MCA in Computer Application, and currently, I am pursuing Full Stack Web Development Course at Masai School I love to develop Software that impacts Society. With 1200+ hours of coding and 100+ hours of soft skills training, I looking forward to utilizing my skills in a challenging work environment.</h3>
+<h3 align="center">A skilled software developer with strong expertise in designing REST APIs using Spring Boot and Java frameworks. Specialized in Java/J2EE technologies and experienced in JavaScript, React JS, Python, and GraphQL. Proficient in developing object-oriented software applications and well-versed in Spring, Microservices, and MVC architectures. Experienced with MySQL, DynamoDB, and AWS services.</h3>
 
-- 🌱 I’m currently learning **Java**
+- 🌱 I have hands-on experience in **Java, Spring Boot, React JS, AWS Cloud Services**
 
 - 👨‍💻 All of my projects are available at [https://riturajnagar.github.io/](https://riturajnagar.github.io/)
-
-- 💬 Ask me about **HTML, CSS, JavaScript, Java**
 
 - 📫 How to reach me **riturajnagar78@gmail.com**
 
