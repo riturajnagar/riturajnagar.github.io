@@ -9,6 +9,7 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 
 /*General*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -436,16 +437,16 @@ img.pull-left {
     ;
 }
 
-nav#filter {
+nav #filter {
     margin-bottom: 1.5em;
 }
 
-nav#filter li {
+nav #filter li {
     display: inline-block;
     margin: 0 0 0 5px;
 }
 
-nav#filter a {
+nav #filter a {
     padding: 4px 12px;
     line-height: 20px;
     border: 1px solid #00bfff;
@@ -453,7 +454,7 @@ nav#filter a {
     color: #00bfff;
 }
 
-nav#filter a.current {
+nav #filter a.current {
     background: #00bfff;
     color: #fff;
 }
@@ -551,16 +552,18 @@ i {
     color: #DF4E20;
 }
 
-.navbar-inverse .navbar-nav>.active>a {
-    /* font-size: 18px;
-    background-color: #DF4E20;
-    font-weight: 800; */
+.container {
+    /* max-width: 1050px; */
+    width: 90%;
+    margin: auto;
+}
 
+.navbar-inverse .navbar-nav>.active>a {
     font-size: 18px;
     font-weight: 800;
     border: 2px solid #DF4E20;
-    padding: 8px 15px !important;
-    border-radius: 12px;
+    padding: 8px 10px !important;
+    border-radius: 10px;
 }
 
 .navbar-inverse .navbar-brand {
@@ -874,12 +877,13 @@ a {
 .project_info,
 .project_container {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .project_img {
+    min-width: 50%;
     max-width: 50%;
 }
 
@@ -888,7 +892,7 @@ a {
     border-radius: 5px;
     padding: 5px 10px;
     margin: auto;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(51, 49, 49);
     text-decoration: none;
 }
@@ -945,13 +949,13 @@ a {
     margin: auto;
 }
 
-#btn2{
+#btn2 {
     display: block;
     margin: auto;
     margin-top: 20px;
 }
 
-#btn2:hover{
+#btn2:hover {
     transition: .6s;
     border-radius: 5px;
     border: 1px solid #DF4E20;
@@ -968,6 +972,12 @@ a {
     /* margin: 5%; */
     text-align: left;
     /* border: 2px solid red; */
+}
+
+.faqQuestion {
+    color: #DF4E20;
+    text-transform: uppercase;
+    font-size: larger;
 }
 
 #faq-collapse {
@@ -1040,9 +1050,10 @@ a {
     background-color: #DF4E20;
 }
 
-i{
+i {
     color: black;
 }
+
 .footer_container {
     row-gap: 2rem;
     display: grid;
@@ -1052,8 +1063,9 @@ i{
 .footer_bg {
     /* background-color: #DF4E20; */
     padding: 2rem 0 2rem;
-   
+
 }
+
 .footer_bg img {
     height: 300px;
 }
@@ -1102,6 +1114,43 @@ i{
 */
 
 @media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .navbar-inverse {
+        /* border: 1px solid white; */
+        margin: 0px;
+        padding: 0px;
+        /* background: #DF4E20; */
+    }
+
+    p,
+    li {
+        font-size: 12px;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    #faq-collapse {
+        /* border: 1px solid teal; */
+        font-size: 20px;
+    }
+
+    .about_info {
+        display: block;
+    }
+
+
+    .form-control {
+        width: 90%;
+    }
+
+
     .skills-container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1113,6 +1162,23 @@ i{
 
     .tech-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project_container {
+        display: block;
+    }
+
+    .project_img {
+        min-width: 100%;
+    }
+
+    .statistics_container {
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    .statistics_container>img {
+        max-width: 100%;
     }
 }
 
