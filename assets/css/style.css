@@ -616,6 +616,12 @@ input {
     margin-bottom: 150px;
 }
 
+.experience-container{
+    border-left: 3px solid #DF4E20;
+    border-right: 3px solid #DF4E20;
+    border-radius: 20px;
+}
+
 /* index About section Additional css  */
 .about_info {
     display: flex;
@@ -882,6 +888,13 @@ a {
     margin-bottom: 50px;
 }
 
+.project_container{
+    border-left: 3px solid #DF4E20;
+    border-right: 3px solid #DF4E20;
+    border-radius: 20px;
+    padding: 10px;
+}
+
 .project_img {
     min-width: 50%;
     max-width: 50%;
@@ -919,12 +932,21 @@ a {
     /* border: 1px solid red; */
     padding: 5px;
 }
-
-.certificate {
-    max-width: 80%;
-    display: block;
+.container-certificate{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    border-left: 3px solid #DF4E20;
+    border-right: 3px solid #DF4E20;
+    border-radius: 20px;
+}
+.certificate {
+    width: 50%;
+    /* height: auto; */
+    padding: 20px;
+   
 }
 
 /* statistics container  */
